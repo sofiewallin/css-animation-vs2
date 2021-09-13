@@ -1,0 +1,169 @@
+/*------------------------------------*\
+    GENERAL & RESETS
+\*------------------------------------*/
+
+body.theme-stars { 
+    background: rgba(30,35,40,1);
+    background: linear-gradient(180deg, rgba(30,35,40,1) 0%, rgba(35,55,80,1) 40%, rgba(13,115,140,1) 100%);
+    font: 300 1.8rem/1.5 'Jost', sans-serif;
+}
+
+/*------------------------------------*\
+    ANIMATED BACKGROUNDS
+\*------------------------------------*/
+
+.theme-stars .bg1 {
+    background: transparent url('../images/stars_layer_two.png') repeat center center;
+    height: 100%;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.theme-stars .bg2 {
+    animation: slidestars 50s linear infinite forwards;
+    background: transparent url('../images/stars_layer_three.png') repeat center top;
+    height: 100%;
+    left: -50%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 200%;
+    z-index: 2;
+}
+
+.theme-stars .bg3 {
+    animation: twinklestar 25s ease-in infinite;
+    background: transparent url(../images/star.png) no-repeat center top;
+    left: 0;
+    height: 3.6rem;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 3.6rem;
+    z-index: 3;
+}
+
+/*------------------------------------*\
+    ANIMATIONS
+\*------------------------------------*/
+
+@keyframes twinklestar {
+    0% {
+        left: 10vw;
+        opacity: 0;
+        top: 40vh;
+    }
+    5% {
+        left: 10vw;
+        opacity: 1;
+        top: 40vh;
+    }
+    10% {
+        left: 10vw;
+        opacity: 0;
+        top: 40vh;
+    }
+    15% {
+        left: 70vw;
+        opacity: 0;
+        top: 60vh;
+    }
+    20% {
+        left: 70vw;
+        opacity: 1;
+        top: 60vh;
+    }
+    25% {
+        left: 70vw;
+        opacity: 0;
+        top: 60vh;
+    }
+    30% {
+        left: 40vw;
+        opacity: 0;
+        top: 10vh;
+    }
+    35% {
+        left: 40vw;
+        opacity: 1;
+        top: 10vh;
+    }
+    40% {
+        left: 40vw;
+        opacity: 0;
+        top: 10vh;
+    }
+    45% {
+        left: 90vw;
+        opacity: 0;
+        top: 80vh;
+    }
+    50% {
+        left: 90vw;
+        opacity: 1;
+        top: 80vh;
+    }
+    55% {
+        left: 90vw;
+        opacity: 0;
+        top: 80vh;
+    }
+    60% {
+        left: 30vw;
+        opacity: 0;
+        top: 50vh;
+    }
+    65% {
+        left: 30vw;
+        opacity: 1;
+        top: 50vh;
+    }
+    70% {
+        left: 30vw;
+        opacity: 0;
+        top: 50vh;
+    }
+    75% {
+        left: 80vw;
+        opacity: 0;
+        top: 20vh;
+    }
+    80% {
+        left: 80vw;
+        opacity: 1;
+        top: 20vh;
+    }
+    85% {
+        left: 80vw;
+        opacity: 0;
+        top: 20vh;
+    }
+    90% {
+        left: 50vw;
+        opacity: 0;
+        top: 60vh;
+    }
+    95% {
+        left: 50vw;
+        opacity: 1;
+        top: 60vh;
+    }
+    100% {
+        left: 50vw;
+        opacity: 0;
+        top: 60vh;
+    }
+}
+
+@keyframes slidestars {
+    from {
+      transform:translateX(-25%);
+    }
+    to {
+      transform:translateX(25%);
+    }
+  }
