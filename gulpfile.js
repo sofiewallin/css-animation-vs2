@@ -3,7 +3,8 @@ const browserSync = require('browser-sync').create();
 const concat = require('gulp-concat');
 const terser = require('gulp-terser');
 const cssnano = require('gulp-cssnano');
-const sourcemaps = require('gulp-sourcemaps')
+const sourcemaps = require('gulp-sourcemaps');
+const imagemin = require('gulp-imagemin');
 
 // Define file paths
 const files = {
@@ -43,6 +44,7 @@ function jsTask() {
 // Images task
 function imagesTask() {
     return src(files.imagesPath)
+    .pipe(imagemin())
     .pipe(dest('pub/images'));
 }
 

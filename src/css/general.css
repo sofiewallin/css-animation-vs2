@@ -104,6 +104,10 @@ button {
     z-index: 5;
 }
 
+button:hover {
+    transform: rotate(360deg);
+}
+
 /*------------------------------------*\
     ANIMATIONS
 \*------------------------------------*/
