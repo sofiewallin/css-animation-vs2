@@ -10,9 +10,9 @@ Answers to questions (in Swedish) which is a part of the assignment.
 
 ### Vad är automatiseringsprocessens syfte?
  
- Syftet med en autmatiserad arbetsprocess är att underlätta för utvecklare och automatisera arbete som annars skulle behöva göras manuellt. 
+ Syftet med en autmatiserad arbetsprocess är att underlätta för utvecklare, snabba på arbetsflödet och automatisera arbete som annars skulle behöva göras manuellt. 
 
- I en automatiserad arbetsprocess går det att tydligt skilja på den källkod som man arbetar i och den källkod som sedan publiceras. I arbetsfiler är det bra för en utvecklare att kunna kommentera noga, stycka upp sina filer för att lättare hitta saker o.s.v. När filer publiceras däremot behöver en utvecklare ta hänsyn till prestanda, färre förfrågningar mot en server, storleken på filerna o.s.v. Med autmatiserande uppgifter ("tasks") görs det möjligt för en utvecklare att jobba i sina arbetsfiler och låta publiceringsfilerna skapas automatiskt. Detta sparar mycket jobb.
+ I en automatiserad arbetsprocess går det att tydligt skilja på den källkod som man arbetar i och de filer som sedan publiceras. I arbetsfiler är det bra för en utvecklare att kunna kommentera noga, stycka upp sina filer för att lättare hitta saker o.s.v. När filer publiceras däremot behöver en utvecklare ta hänsyn till prestanda, färre förfrågningar mot en server, storleken på filerna o.s.v. Med autmatiserande uppgifter ("tasks") görs det möjligt för en utvecklare att jobba i sina arbetsfiler och låta publiceringsfilerna skapas automatiskt. Detta sparar mycket jobb.
 
 ### Vilka paket och verktyg har använts? Varför valdes dessa?
 
