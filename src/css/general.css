@@ -30,9 +30,20 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+body, button {
     color: rgba(255,255,255,1);
     font: 300 1.8rem/1.5 'Jost', sans-serif;
+}
+
+/* Hidden elements */
+#hidden-description:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
 }
 
 /*------------------------------------*\
@@ -42,7 +53,7 @@ body {
 main {
     margin: 0 auto;
     max-width: 54.0rem;
-    padding: 4.5rem 3.0rem;
+    padding: 8.0rem 3.0rem 5.0rem;
     position: relative;
     text-align: center;
     z-index: 4;
@@ -53,8 +64,13 @@ main {
     height: 8.0rem;
     left: -8.0rem;
     position: absolute;
-    top: 4.5rem;
+    top: 8.0rem;
     width: 8.0rem;
+}
+
+h1, p, button {
+    animation: fadein 2s ease-in 3s forwards;
+    opacity: 0;
 }
 
 h1 {
@@ -65,13 +81,27 @@ h1 {
     padding-top: 12.0rem;
 }
 
-h1, p {
-    animation: fadein 2s ease-in 3s forwards;
-    opacity: 0;
+p {
+    margin-bottom: 1.5rem;
+    animation-delay: 4s;
 }
 
-p {
-    animation-delay: 4s;
+button {
+    animation-delay: 5s;
+    border: none;
+    border-radius: 6.0rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: 12.0rem;
+    letter-spacing: 0.10em;
+    margin-top: 3.0rem;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in;
+    width: 12.0rem;
+    z-index: 5;
 }
 
 /*------------------------------------*\

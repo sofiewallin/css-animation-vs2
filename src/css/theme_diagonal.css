@@ -8,6 +8,18 @@ body.theme-diagonal {
 }
 
 /*------------------------------------*\
+    CONTENT
+\*------------------------------------*/
+
+.theme-diagonal button {
+    background-color: rgba(43,179,172,0.6);
+}
+
+.theme-diagonal button:hover {
+    background-color: rgba(43,179,172,1);
+}
+
+/*------------------------------------*\
     ANIMATED BACKGROUNDS
 \*------------------------------------*/
 

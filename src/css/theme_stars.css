@@ -9,6 +9,22 @@ body.theme-stars {
 }
 
 /*------------------------------------*\
+    CONTENT
+\*------------------------------------*/
+
+.theme-stars h1 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+.theme-stars button {
+    background-color: rgba(188,64,212,0.6);
+}
+
+.theme-stars button:hover {
+    background-color: rgba(188,64,212,1);
+}
+
+/*------------------------------------*\
     ANIMATED BACKGROUNDS
 \*------------------------------------*/
 
