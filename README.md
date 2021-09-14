@@ -34,6 +34,7 @@ Answers to questions (in Swedish) which is a part of the assignment.
  1. Öppna en terminal/kommandoprompt 
  1. Om Gulp inte finns installerat globalt på datorn installera detta med `npm install gulp-cli -g`
  1. Flytta dig till den plats där "repositoryt" ska hamna och klona "repositoryt med `git clone https://github.com/sofiewallin/css-animation-vs2.git`
+ 1. Gå in i det klonade "repositoryt"
  1. Installera paket med `npm install`
  1. Starta Gulp med `gulp`
  1. Klart
